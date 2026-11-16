@@ -24,3 +24,9 @@ ul.cards{list-style:none;padding:0}
 ul.cards li{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:12px 0}
 ul.cards a{display:block;padding:14px 16px;text-decoration:none;color:var(--text)}
 footer{max-width:720px;margin:0 auto;padding:24px 16px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+.duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0}
+.trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:12px 0}
+.duo figure,.trio figure{margin:0}
+.duo img,.trio img{display:block;width:100%;height:auto;border-radius:8px}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;margin-top:2px}
+.tablewrap{overflow-x:auto;margin:8px 0}
